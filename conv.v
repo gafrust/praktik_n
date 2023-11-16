@@ -19,7 +19,7 @@ reg [7:0] CONV_iData1reg[LengthOfConv - 1:0];
 reg [15:0] CONV_oDatareg[2*LengthOfConv - 2:0];
 
 
- 
+ reg change;
 reg [7: 0] index0;
 reg [7: 0] index1; // Эти два предназначены для инициализации и очистки
  
